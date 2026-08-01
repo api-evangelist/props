@@ -1,8 +1,27 @@
 aid: props
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/props.png
 name: Props
-description: Props is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Props (Props Project, operated by Props PBC / Open Props, founded by YouNow's Adi Sideman) was a
+  blockchain-based loyalty and rewards network that let consumer apps grant users a shared crypto token
+  (the Props Token) as a stake in the networks they helped grow. Backed by Union Square Ventures,
+  Borderless Capital, Venrock and Comcast Ventures, it raised ~$2M and was the first Regulation A+
+  consumer token qualified by the SEC, reaching over three million users across its app network. In
+  August 2021 the team announced it would wind down commercial operations at year end, citing the
+  regulatory constraints of running a qualified security, and open-sourced the Props Protocol contracts
+  on GitHub. The propsproject.com domain no longer resolves; there is no live developer portal, API,
+  documentation, or maintained SDK. This profile is retained as a historical, defunct-provider record.
 url: https://raw.githubusercontent.com/api-evangelist/props/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +29,20 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Commercial operations wound down end of 2021; Props Protocol open-sourced; primary domain propsproject.com no longer resolves.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Blockchain
+- Cryptocurrency
+- Tokens
+- Loyalty & Rewards
+- Consumer Apps
+- Defunct
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +51,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://propsproject.com
+  url: https://www.props.xyz
+- type: GitHubOrganization
+  url: https://github.com/propsproject
+- type: Blog
+  url: https://propsproject.medium.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
